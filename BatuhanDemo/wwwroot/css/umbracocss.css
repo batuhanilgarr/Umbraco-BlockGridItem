@@ -1,0 +1,39 @@
+
+
+/**umb_name:Divider Top*/
+.divider-top {
+	width: 196px;
+	height: 2px;
+	background-color: black;
+	margin-bottom: 53px;
+	margin-top: 36px;
+}
+
+/**umb_name:Divider Bottom*/
+.divider-bottom {
+	width: 196px;
+	height: 2px;
+	background-color: black;
+	margin-top: 53px;
+	margin-bottom: 70px;
+}
+
+/**umb_name:Heading 1*/
+h1 {
+}
+
+/**umb_name:Heading 2*/
+h2 {
+}
+
+/**umb_name:Heading 3*/
+h3 {
+}
+
+/**umb_name:Paragraph*/
+p {
+}
+
+/**umb_name:Strong*/
+strong {
+}
