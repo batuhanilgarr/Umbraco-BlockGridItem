@@ -16,6 +16,18 @@
     <RuntimeHostConfigurationOption Include="System.Globalization.AppLocalIcu" Value="72.1.0.3" Condition="$(RuntimeIdentifier.StartsWith('linux')) or $(RuntimeIdentifier.StartsWith('win')) or ('$(RuntimeIdentifier)' == '' and !$([MSBuild]::IsOSPlatform('osx')))" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\sounds\BHS_Oncesi_Bilgilendirme_Metni_Uzaktan_Musteri_Edinimi.mp3" />
+    <_ContentIncludedByDefault Remove="wwwroot\sounds\BHS_Uzaktan_Musteri_Edinimi.mp3" />
+    <_ContentIncludedByDefault Remove="wwwroot\sounds\destekbank-engelleri-asin.mp3" />
+    <_ContentIncludedByDefault Remove="wwwroot\sounds\dijital-kanallar-guvenlik.mp3" />
+    <_ContentIncludedByDefault Remove="wwwroot\sounds\Elektronik_Bankacilik_Kanallari_Talep_Formu.mp3" />
+    <_ContentIncludedByDefault Remove="wwwroot\sounds\Elektronik_Ticari_ileti_Gonderim_izni.mp3" />
+    <_ContentIncludedByDefault Remove="wwwroot\sounds\gorme-engelliler-icin-detayli-seslendir.mp3" />
+    <_ContentIncludedByDefault Remove="wwwroot\sounds\guvenlik-bilgileri.mp3" />
+    <_ContentIncludedByDefault Remove="wwwroot\sounds\KVKK_Aydinlatma_Metni_ve_Riza_Formu.mp3" />
+  </ItemGroup>
+
   <PropertyGroup>
     <!-- Razor files are needed for the backoffice to work correctly -->
     <CopyRazorGenerateFilesToPublishDirectory>true</CopyRazorGenerateFilesToPublishDirectory>
